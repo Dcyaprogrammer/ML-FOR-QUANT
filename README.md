@@ -1,2 +1,2 @@
-# RL-FOR-QUANT
-Implementation of RL baselines specially for quant
+# ML-FOR-QUANT
+Implementation of DL/RL baselines specially for quant
