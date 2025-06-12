@@ -1,0 +1,27 @@
+QuantLearn/
+├── quantlearn/
+│   ├── __init__.py
+│   ├── base.py               # 基类定义
+│   ├── indicators/           # 技术指标模块
+│   │   ├── __init__.py
+│   │   ├── rsi.py
+│   │   ├── macd.py
+│   │   ├── bollinger.py
+│   │   └── ...
+│   ├── models/               # 机器学习模型模块
+│   │   ├── __init__.py
+│   │   ├── moving_average.py
+│   │   ├── volatility.py
+│   │   └── ...
+│   ├── utils/                # 工具函数
+│   │   ├── data_validation.py
+│   │   ├── plotting.py
+│   │   └── ...
+│   └── data/                 # 数据接口
+│       ├── loader.py
+│       └── preprocessor.py
+├── tests/                    # 测试目录
+├── examples/                 # 使用示例
+├── setup.py
+├── requirements.txt
+└── README.md
